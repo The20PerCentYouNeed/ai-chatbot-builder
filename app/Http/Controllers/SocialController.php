@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Laravel\Socialite\Facades\Socialite;
 
-class GoogleController extends Controller
+class SocialController extends Controller
 {
     public function redirectToGoogle()
     {
